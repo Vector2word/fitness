@@ -1,0 +1,226 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Services</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">Services</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<div class="our-team content-area">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title">
+            <h1>Explore Our Services</h1>
+            <p>We have different Group and Individual Programs: Weight Loss, Group Fitness Program, Program for Kids and others.</p>
+        </div>
+  
+<!-- Service center strat -->
+
+        <div class="row">
+            <div class="col-xl-5 col-lg-6">
+                <div class="about-car-photo">
+                    <div id="carDetailsSlider" class="carousel car-details-sliders slide">
+                        <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="{% static 'img/banner2.jpeg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="{% static 'img/fitness/galery_fitness/fit-10.jpeg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="{% static 'img/fitness/galery_fitness/fit-11.jpeg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                        </div>
+                        <!-- main slider carousel nav controls -->
+                        <ul class="carousel-indicators car-properties list-inline nav nav-justified">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/banner2.jpeg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/fitness/galery_fitness/fit-10.jpeg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/fitness/galery_fitness/fit-11.jpeg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 align-self-center">
+                <div class="best-used-car">
+                    <h3>Group  <span>Fitness Classes</span></h3>
+                    <p>Mixing the hottest music with cutting-edge exercise science, motivation and the energy of many, Playground Broward fitness classes make you fall in love with fitness.</p>
+                    <p class="mb-0"> <b>Exercise types: Dance, Boxing, Cardio, Cross Training, Flexibility.</b><br><br><b>Loosen up.</b> Focus on the muscles and parts of the body that will be getting used most during the class. This is also an excellent time to check if your members have any injuries or tighter muscles that you might want to focus on – you could incorporate foam rollers as part of the warmup to help.<br><br>
+
+                        <b>Stretch.</b> When your members aren’t exercising, most will spend a lot of their day hunched at a desk; putting a strain on their knees, hips, and spine. Incorporate movements that extend, stretch, and lengthen, especially in areas like the back and hamstrings. 
+                        
+                        Full range of motion. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="featured-car content-area">
+    <div class="container">
+        <div class="main-title">
+            <h1>CALL US NOW <span>(954) 846-8666</span></h1>
+            <p>Our experts will make you the best offer.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Service center strat -->
+<div class="about-car content-area-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6">
+                <div class="about-car-photo">
+                    <div id="carDetailsSlider" class="carousel car-details-sliders slide">
+                        <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="{% static 'img/fitness/galery_fitness/fit-13.jpeg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="{% static 'img/fitness/galery_fitness/fit-5.jpeg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="{% static 'img/fitness/galery_fitness/fit-14.jpeg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                        </div>
+                        <!-- main slider carousel nav controls -->
+                        <ul class="carousel-indicators car-properties list-inline nav nav-justified">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/fitness/galery_fitness/fit-13.jpeg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/fitness/galery_fitness/fit-5.jpeg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/fitness/galery_fitness/fit-14.jpeg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 align-self-center">
+                <div class="best-used-car">
+                    <h3>Personal Training <span>Program</span></h3>
+                    <p> <b>Customized Program</b>
+                        A program that is customized for you as an individual. Based on your lifestyle and availability, we can build this program around your schedule, making your time at the gym as productive as possible.<br><br>
+                        
+                        <b>Body measurements</b>
+                        State of the Art body fat testing is available by appointment.
+                        
+                        <b>Stretching</b>
+                        Learn how proper warm-up and stretching procedures can enhance your training and overall health.<br><br>
+                        
+                        <b>Kinesiology</b>
+                        Our lectures provide knowledge about muscle function and how to safely and effectively perform each exercise to maximize your efforts in workouts. Hands on and visual demonstrations will be included.
+                        
+                        <b>Nutrition</b>
+                        Learn to create a nutritional game plan to add muscle, get lean, or both.
+                        
+                        <b>Body Fat Control</b>
+                        Learn tips that professional bodybuilders use to lose body fat without cutting calories.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service center end -->
+<div class="featured-car content-area">
+    <div class="container">
+        <div class="main-title">
+            <h1>KIDS <span>FITNESS CLASSES</span></h1>
+            <p>Kids Fitness Classes includes a dynamic warm up, sports-related drills, balance challenges and relays to get your kids moving, sweating and smiling. After a dynamic warm up, kids will enjoy listening games, relays, balance drills and proper stretching.
+                <br><br><b>If you have any questions abour Kids Classes, please, contact us. Our experts will make you the best offer.</b><br><br><b>CALL US NOW (954) 846-8666</b>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Our team start -->
+<div class="our-team content-area">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title">
+            <h1>Learn more about our <span>Services</span></h1>
+            <p>Contact us today and get the best offer for Membership.</p>
+        </div>
+        <!-- Slick slider area start -->
+        <div class="slick-slider-area clearfix">
+            <div class="row slick-carousel" data-slick='{"slidesToShow": 4, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+                
+                {% for team in teams %}
+                <div class="slick-slide-item">
+                    <div class="team-1">
+                        <div class="photo">
+                            <a href="{{ team.photo.url }}">
+                                <img src="{{ team.photo.url }}" alt="team-1" class="img-fluid">
+                            </a>
+                            
+                        </div>
+                        <div class="details">
+                            <h4><a href="{% url 'contact' %}">{{team.first_name}}</a></h4>
+                            <!-- <h5>Creative Director</h5> -->
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Intro section start -->
+<div class="intro-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="intro-text">
+                    <h3>Do You Have Questions ?</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <a href="{% url 'contact' %}" class="btn btn-md">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+<!-- Intro section end -->
+<!-- Our team end -->
+
+
+
+
